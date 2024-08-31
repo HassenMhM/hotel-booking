@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#">Hotelie</a>
+        </div>
+        <div class="navlist">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#rooms">Rooms</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="bar">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide home-1 hero">
+                    <div class="home-text">
+                        <h1>Discover Our Moderb <br> Luxurious Hotel</h1>
+                        <div class="btn">
+                            <a href="#">Explore More</a>
+                            <a href="#">Book A Room</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide home-2 hero">
+                    <div class="home-text">
+                        <h1>Your Comfort Is Our <br> Concern</h1>
+                        <div class="btn">
+                            <a href="#">Explore More</a>
+                            <a href="#">Book A Room</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div >
+    </section>
+    <section class="about" id="about">
+        <div class="about-content container">
+            <div class="about-text">
+                <h3>About Us</h3>
+                <h2>Welcome To <span>Hotelie</span></h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam maiores quas laboriosam illo et fuga soluta nisi laudantium minus facere. Velit </p>
+                <div class="about-icon-content">
+                    <div class="about-content-col">
+                        <i class="fas fa-house"></i>
+                        <h4>104</h4>
+                        <p>Rooms</p>
+                    </div>
+                    <div class="about-content-col">
+                        <i class="fas fa-users"></i>
+                        <h4>90</h4>
+                        <p>Staffs</p>
+                    </div>
+                    <div class="about-content-col">
+                        <i class="fas fa-users-line"></i>
+                        <h4>904</h4>
+                        <p>Clients</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="about-img">
+                <img src="photos/about-1.jpg" alt="">
+                <img src="photos/about-2.jpg" alt="">
+                <img src="photos/about-3.jpg" alt="">
+                <img src="photos/about-4.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="service-container container">
+            <div class="head">
+                <h2>Our <span>Services</span></h2>
+            </div>
+            <div class="services-content-row">
+                <div class="service-content-col">
+                    <i class="fas fa-hotel"></i>
+                    <h3>Apartement & Rooms</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus magni </p>
+                </div>
+            </div>
+            <div class="services-content-row">
+                <div class="service-content-col">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Food & Drinks</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus magni </p>
+                </div>
+            </div>
+            <div class="services-content-row">
+                <div class="service-content-col">
+                    <i class="fas fa-spa"></i>
+                    <h3>Fitness & Spa</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus magni </p>
+                </div>
+            </div>
+            <div class="services-content-row">
+                <div class="service-content-col">
+                    <i class="fas fa-wine-glass"></i>
+                    <h3>Apartement & Rooms</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus magni </p>
+                </div>
+            </div>
+            <div class="services-content-row">
+                <div class="service-content-col">
+                    <i class="fas fa-person-swimming"></i>
+                    <h3>Sports & Games</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus magni </p>
+                </div>
+            </div>
+            <div class="services-content-row">
+                <div class="service-content-col">
+                    <i class="fas fa-dumbbell"></i>
+                    <h3>AGym & Yoga</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus magni </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="rooms" id="rooms">
+        <div class="room-container container">
+            <div class="room-content-row">
+                <div class="room-content-col">
+                    <img src="photos/room-1.jpg" alt="">
+                    <div class="room-text">
+                        <h3>Executive Rooms</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="room-details">
+                        <h4>100$/Night</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta qu</p>
+                        <div class="room-btn">
+                            <a href="#">View Details</a>
+                            <a href="#">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-content-col">
+                    <img src="photos/room-2.jpg" alt="">
+                    <div class="room-text">
+                        <h3>Executive Rooms</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="room-details">
+                        <h4>100$/Night</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta qu</p>
+                        <div class="room-btn">
+                            <a href="#">View Details</a>
+                            <a href="#">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-content-col">
+                    <img src="photos/room-3.jpg" alt="">
+                    <div class="room-text">
+                        <h3>Executive Rooms</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="room-details">
+                        <h4>100$/Night</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta qu</p>
+                        <div class="room-btn">
+                            <a href="#">View Details</a>
+                            <a href="#">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-content-col">
+                    <img src="photos/room-4.jpg" alt="">
+                    <div class="room-text">
+                        <h3>Executive Rooms</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="room-details">
+                        <h4>100$/Night</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta qu</p>
+                        <div class="room-btn">
+                            <a href="#">View Details</a>
+                            <a href="#">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-content-col">
+                    <img src="photos/room-5.jpg" alt="">
+                    <div class="room-text">
+                        <h3>Executive Rooms</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="room-details">
+                        <h4>100$/Night</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta qu</p>
+                        <div class="room-btn">
+                            <a href="#">View Details</a>
+                            <a href="#">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-content-col">
+                    <img src="photos/room-6.jpg" alt="">
+                    <div class="room-text">
+                        <h3>Executive Rooms</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="room-details">
+                        <h4>100$/Night</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta qu</p>
+                        <div class="room-btn">
+                            <a href="#">View Details</a>
+                            <a href="#">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="staffs" id="staffs">
+        <div class="staff-container container">
+            <div class="head">
+                <h2>Get To Know Our Sraffs</h2>
+            </div>
+            <div class="staff-content-row">
+                <div class="staff-content-col">
+                    <img src="photos/team-1.jpg" alt="">
+                    <h3>Patricia Davies</h3>
+                    <h2>Hotel Secretary</h2>
+                    <div class="staff-socials">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+                <div class="staff-content-col">
+                    <img src="photos/team-2.jpg" alt="">
+                    <h3>James Gadner</h3>
+                    <h2>Hotel Manager</h2>
+                    <div class="staff-socials">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+                <div class="staff-content-col">
+                    <img src="photos/team-3.jpg" alt="">
+                    <h3>Patrick Dave</h3>
+                    <h2>Chef</h2>
+                    <div class="staff-socials">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+                <div class="staff-content-col">
+                    <img src="photos/team-4.jpg" alt="">
+                    <h3>Louis James</h3>
+                    <h2>Hotel Cleaner</h2>
+                    <div class="staff-socials">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials" id="testimonials">
+        <div class="testimonials-container container">
+            <div class="head">
+                <h2>Our Customer's <span>Testimonials</span></h2>
+            </div>
+            <div class="swiper myswiper">
+                <div class="swiper-wrapper testimonials-row">
+                    <div class="swiper-slide testimonials-col">
+                        <img src="photos/testimonial-1.jpg" alt="">
+                        <div class="testimonial-text">
+                            <h3>Albert Marh</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere voluptate dignissimos blanditiis nostrum! Blanditiis veniam </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide testimonials-col">
+                        <img src="photos/testimonial-2.jpg" alt="">
+                        <div class="testimonial-text">
+                            <h3>Desmond Owusu</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere voluptate dignissimos blanditiis nostrum! Blanditiis veniam </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide testimonials-col">
+                        <img src="photos/testimonial-3.jpg" alt="">
+                        <div class="testimonial-text">
+                            <h3>Janet Bomd</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere voluptate dignissimos blanditiis nostrum! Blanditiis veniam </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide testimonials-col">
+                        <img src="photos/testimonial-4.jpg" alt="">
+                        <div class="testimonial-text">
+                            <h3>James Attah</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere voluptate dignissimos blanditiis nostrum! Blanditiis veniam </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide testimonials-col">
+                        <img src="photos/testimonial-5.jpg" alt="">
+                        <div class="testimonial-text">
+                            <h3>Francis Nkrumah</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere voluptate dignissimos blanditiis nostrum! Blanditiis veniam </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide testimonials-col">
+                        <img src="photos/testimonial-6.jpg" alt="">
+                        <div class="testimonial-text">
+                            <h3>Patricia Clarkson</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere voluptate dignissimos blanditiis nostrum! Blanditiis veniam </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-container container">
+            <h2>Contact <span>Us</span></h2>
+        </div>
+        <div class="contact-row">
+            <div class="contact-col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127066.72272970245!2d-0.2621323707095706!3d5.591373810030542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9084b2b7a773%3A0xbed14ed8650e2dd3!2sAccra%2C%20Ghana!5e0!3m2!1sfr!2sdz!4v1725027359598!5m2!1sfr!2sdz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contact-col">
+                <form >
+                    <div class="input">
+                        <input type="text" placeholder="Enter your name here..." >
+                        <input type="email" placeholder="Enter your email here..." >
+                    </div>
+                    <textarea name="message" placeholder="Leave us a meessage"></textarea>
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="footer-container container">
+        <h2>Copyright &copy; 2024 | Believers Code</h2>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
